@@ -26,8 +26,8 @@ def convertImgInv(row):
 pd.set_option('display.max_colwidth', -1)
 
 sizes = {'h=831':'h=200', 'w=615':'w=115'}
-webfileurl = "https://docs.google.com/viewer?url=https%3A%2F%2Fgithub.com%2Fsohailehiz%2Finventorylist%2Fblob%2Fmain%2FWebsiteData.xlsx"
-invfileurl = "https://docs.google.com/viewer?url=https%3A%2F%2Fgithub.com%2Fsohailehiz%2Finventorylist%2Fblob%2Fmain%2FInventoryData1.xlsx"
+webfileurl = 'WebsiteData.xlsx'
+invfileurl = 'InventoryData1.xlsx'
 
 st.title('Life Style')
 df  = pd.read_excel(webfileurl, index_col=0)
